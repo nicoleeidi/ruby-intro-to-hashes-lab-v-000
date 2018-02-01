@@ -15,9 +15,9 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-  monopoly = {railroads: {pieces: 4}} 
-  monopoly[:names]= {} 
-  monopoly[:rent_in_dollars]= {} 
+  monopoly = {railroads: {pieces: 4}}
+  monopoly[:names]= {}
+  monopoly[:rent_in_dollars]= {}
   #names: {}, rent_in_dollars: {}}
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 
